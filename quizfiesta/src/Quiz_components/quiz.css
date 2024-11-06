@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&display=swap");
+
+ /* .categorySelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh; /* This ensures the container takes the full height of the viewport. */
+    /* background-color: black;
+    color: white;
+    font-size: 44px;
+    font-family: 'Cinzel', serif;
+  }  */
+.container{
+  color: white;
+  height:30vh;
+}
+
+  .pageContainer {
+    height:20vh;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    font-size: 44px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .categorySelect {
+    width: 100%;
+    font-size: 44px;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  #categorySelect{
+    background-color: #EEA15A;
+    width: 50%;
+  }
+
+  #categorySelect option{
+    background-color: #F85162;
+    color: wheat;
+  }
+
+  .content {
+    margin: 2% 5%;
+    color: white;
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .content button {
+    margin-top:7%;
+    background-color: #EEA15A;
+    width: 40vh;
+    height: 40px;
+    font-size: 2vh; /* Adjust the font size relative to the button width */
+    margin-bottom: 340px; /* Adjust the margin-top to move the button up */
+    color:black;
+  }
+  
+  .content button:hover {
+    background-color: coral;
+  }
+  
+  .content input{
+    width: 40vh;
+    height: 40px;
+    margin: auto;
+    font-size: 2vh
+  }
+
+  .rules{
+    color: black;
+    /* position: absolute; */
+    width: 35%;
+    margin:auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;;
+    border-radius: 10px;
+    border-width: 30px;
+    border-color: #F85162;
+  
+    
+  }
+   
+@media(max-width:768px){
+  .rules{
+    width:100%;
+  }
+  .pageContainer,.content{
+    height:30vh;
+    margin-top:5%;
+  }
+  .container{
+    height: 80vh;
+  }
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh; /* This ensures the container takes the full height of the viewport. */
+    background-color: black;
+    color: white;
+    
+    font-family: 'Cinzel', serif;
+}
+
+.question{
+    color: black;
+    background:rgb(255, 170, 0);
+    border-radius: 3vh;
+    padding:2%;
+}
+
+/* Style the select element */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    color: #333;
+    width: 70em;
+    /* You can add more styles as needed */
+    margin-bottom: 50vh;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /* Style the dropdown options */
+select option {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  /* You can add more styles as needed */
+}
+
+/* Style the selected option */
+select option:checked {
+  background-color: #007BFF;
+  color: #fff;
+  font-weight: bold;
+}
+
+.finalScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh; /* This ensures the container takes the full height of the viewport. */
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+.finalScoreContent{
+    font-size:30px;
+    text-align: center;
+    color: black;
+    background:rgb(255, 170, 0);
+    border-radius: 3vh;
+    padding:2%;
+}
+
+/* Base Button Styles */
+.categorySelect>button,.question>button,.finalScoreContent>button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3vh;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  
+  
+  /* Hover State Styles */
+  button:hover {
+    background-color: #0056b3; /* Slightly darker color on hover */
+  }
+  
+  /* Disabled State Styles */
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Add more button styles as needed */
+  
+  /* Usage Examples:
+  <button class="button-primary">Primary Button</button>
+  <button class="button-secondary">Secondary Button</button>
+  <button class="button-primary" disabled>Disabled Button</button>
+  */
+  
+  
